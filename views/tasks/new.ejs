@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>New Task</title>
+</head>
+<body>
+    <h1>Add a Task</h1>
+    <form action="/tasks" method="POST">
+        <label for="name">Task</label>
+        <input type="text" name="name" placeholder=" task name">
+        <label for="details">Description</label>
+        <input type="text" name="details" placeholder="info">
+        <label for="level">Difficulty</label>
+        <select name="level" id="level">
+            <% for(let level of levels){ %>
+                <option value="<%=level%>"> <%=level%></option>
+            <% } %> 
+        </select>
+        <button>submit</button>
+    </form>
+</body>
+</html>

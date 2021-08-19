@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap");
+.card {
+  text-align: center;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #4b6999;
+  margin: 25px auto;
+  padding: 20px;
+  width: 25%;
+  border-radius: 5px;
+  box-shadow: 5px 3.5px 3px #000;
+  color: #edd4cd;
+}
+.card:visited {
+  color: #edd4cd;
+}
+.card:hover {
+  color: #df584f;
+}
+
+.card-display {
+  margin-top: 50px;
+  border-radius: 5px;
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #edd4cd;
+  color: #6681be;
+  font: 100% Inconsolata, monospace;
+}
+
+.h {
+  background-color: #b72032;
+  padding: 14px 16px;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100;
+}
+
+.container {
+  text-align: center;
+  text-decoration: none;
+}
+.container .head {
+  font-weight: 700;
+  margin: 25px 15px;
+  color: #df584f;
+}
+.container .tasks {
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+.container li {
+  list-style-type: none;
+  padding: 8px 0;
+  font-weight: 400;
+}
+.container a {
+  text-decoration: none;
+  color: #6681be;
+}
+.container a:visited {
+  color: #6681be;
+}
+.container a:hover {
+  color: #b72032;
+}
+.container .foot {
+  background-color: #4b6999;
+  margin-top: 25px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 5px 3.5px 3px #000;
+  color: #edd4cd;
+}
+.container .foot:visited {
+  color: #edd4cd;
+}
+.container .foot:hover {
+  color: #df584f;
+}

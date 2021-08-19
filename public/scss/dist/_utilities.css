@@ -1,0 +1,21 @@
+.card {
+  text-align: center;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #4b6999;
+  margin: 25px auto;
+  padding: 20px;
+  width: 25%;
+  border-radius: 5px;
+  box-shadow: 5px 3.5px 3px #000;
+  color: #edd4cd;
+}
+.card:visited {
+  color: #edd4cd;
+}
+.card:hover {
+  color: #df584f;
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+@import "utilities";
+@import "home";
+$mainFont: Inconsolata, monospace;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #edd4cd;
+	// 	background: rgb(237,212,205);
+	// background: radial-gradient(circle, rgba(237,212,205,1) 0%, rgba(201,175,168,1) 100%, rgba(205,179,172,1) 100%);
+	color: #6681be;
+	font: 100% $mainFont;
+}
+.h {
+	// 9b2226
+	background-color: #b72032;
+	padding: 14px 16px;
+	border-radius: 5px;
+	overflow: hidden;
+	width: 100;
+}
+.container {
+	text-align: center;
+	text-decoration: none;
+	// display: flex;
+
+	.head {
+		font-weight: 700;
+		margin: 25px 15px;
+		color: #df584f;
+	}
+	.tasks {
+		margin-bottom: 25px;
+		border-radius: 5px;
+	}
+	li {
+		list-style-type: none;
+		padding: 8px 0;
+		font-weight: 400;
+	}
+	a {
+		text-decoration: none;
+		color: #6681be;
+		&:visited {
+			color: #6681be;
+		}
+		&:hover {
+			color: #b72032;
+		}
+	}
+	.foot {
+		background-color: #4b6999;
+		margin-top: 25px;
+		padding: 15px;
+		border-radius: 5px;
+		box-shadow: 5px 3.5px 3px #000;
+		color: #edd4cd;
+		&:visited {
+			color: #edd4cd;
+		}
+		&:hover {
+			color: #df584f;
+		}
+	}
+}
